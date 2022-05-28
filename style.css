@@ -1,0 +1,175 @@
+/*    GENERAL      */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+h1{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+	color: #444;
+}
+
+h2{
+	color: #444	;
+	font-size: 55px;
+}
+h3{
+	font-size: 24px;
+	color:#444;
+}
+
+p{
+ line-height: 20px;
+ color:#777;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration:none;
+	color: #444;
+}
+
+.wrapper{
+	width: 940px;
+	margin: 0 auto; 
+	padding: 0 10px;
+}
+
+.orange{
+	color: #ff7a00;
+}
+
+small{
+	font-size: 13px;
+	font-style: italic;
+}
+
+/*    HEADER      */
+header{
+	height: 120px;
+}
+
+header h1 {
+	float: left;
+	margin-top: 32px;
+}
+
+header nav {
+	float: right;
+	margin-top: 50px;
+}
+
+header nav ul li{
+	display: inline-block;
+	float:left;
+}
+
+header nav ul li a{
+	text-transform: uppercase;	
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+/* 	IMAGE ACCUEIL	*/
+.image_accueil{
+	height: 580px;
+	background: url('../img/main.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.image_accueil h2{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+}
+
+.button-1{
+	display: block;
+	width: 120px;
+	height: 50px;
+	background: #ff7a00;
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+	border-radius: 3px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.button-1:hover{
+	background: #2ec4b6;
+}
+
+
+/* 	STEPS	*/
+#steps{
+	
+	display: flex;
+	margin: 80px auto;
+}
+#steps article{
+	width: 300px;
+	padding-top:140px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#steps article h3{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#steps article p{
+	margin-bottom: 20px;
+}
+
+.steps-1{
+	background-image: url('../img/steps-icon-1.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.steps-2{
+	background-image: url('../img/steps-icon-2.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.steps-3{
+	background-image: url('../img/steps-icon-3.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+/*	FOOTER 	*/
+footer{
+	height: 260px;
+	background-color: #444;
+}
+
+footer h1{
+	color:#fff;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.copyright{
+	text-align: center;
+	flex-wrap: bold;
+	padding-top: 30px;
+	color: #fff;
+}
